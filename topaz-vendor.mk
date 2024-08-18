@@ -29,6 +29,8 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/topaz/proprietary/odm/lib64/vendor.xiaomi.hardware.mtdservice@1.0.so:$(TARGET_COPY_OUT_ODM)/lib64/vendor.xiaomi.hardware.mtdservice@1.0.so \
     vendor/xiaomi/topaz/proprietary/vendor/etc/displayconfig/display_id_4630946444529356673.xml:$(TARGET_COPY_OUT_VENDOR)/etc/displayconfig/display_id_4630946444529356673.xml \
     vendor/xiaomi/topaz/proprietary/system/bin/charger:$(TARGET_COPY_OUT_SYSTEM)/bin/charger \
+    vendor/xiaomi/topaz/proprietary/vendor/lib/libpiex.so:$(TARGET_COPY_OUT_VENDOR)/lib/libpiex.so \
+    vendor/xiaomi/topaz/proprietary/vendor/lib64/libpiex.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libpiex.so \
     vendor/xiaomi/topaz/proprietary/vendor/etc/displayconfig/display_id_4630946914797301377.xml:$(TARGET_COPY_OUT_VENDOR)/etc/displayconfig/display_id_4630946914797301377.xml \
     vendor/xiaomi/topaz/proprietary/product/etc/permissions/UimGba.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/permissions/UimGba.xml \
     vendor/xiaomi/topaz/proprietary/product/etc/permissions/UimGbaManager.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/permissions/UimGbaManager.xml \
