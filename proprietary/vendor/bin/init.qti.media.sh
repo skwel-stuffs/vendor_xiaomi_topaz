@@ -136,7 +136,9 @@ case "$target" in
         esac
         ;;
     "bengal")
-        setprop vendor.mm.target.enable.qcom_parser 12500207
+        # Enable qcom parser: AC3+ASF+AVI+DTS+FLV+QCP+AIFF+APE+DSF+DSDIFF+MHAS,
+        # others via android original parser
+        setprop vendor.mm.target.enable.qcom_parser 12353778
         case "$soc_hwid" in
             586)
                 setprop vendor.media.target_variant "_khaje_iot"
